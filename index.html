@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Raza Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    #about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .project {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ali Raza</h1>
+    <nav>
+      <a href="#home">Home - 158 Mukeriganj Sadar Azamgarh</a>
+      <a href="#about">About - Currently pursuing Bachelor of Engineering</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact - 9026800391</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <p>Hello! I'm Ali Raza, currently pursuing a Bachelor of Engineering. I'm passionate about technology and innovation, especially in AI and sustainable development.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>AI Chat Bot</h3>
+      <p>A conversational bot designed to simulate human interaction using natural language processing.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Emergency Medication System</h3>
+      <p>A mobile/web-based app to provide quick access to medication and first aid resources during emergencies.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Solar Planet Orbits</h3>
+      <p>A visual simulation of the solar system and planetary orbits using interactive animations.</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Connect with me: Facebook | LinkedIn | Twitter</p>
+    <p>&copy; 2025 Ali Raza</p>
+  </footer>
+</body>
+</html>
